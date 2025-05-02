@@ -1,0 +1,10 @@
+{
+  "label": "Primitives",
+  "position": 2,
+  "collapsed": false,
+  "collapsible": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Creating and Manipulating Geometric Primitives."
+  }
+}
