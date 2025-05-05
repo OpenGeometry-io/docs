@@ -4,7 +4,10 @@ sidebar_position: 1
 
 # OpenPlans
 
-Coming soon!
+Coming Soon!
+
+But listen, you will be able to create floorplans with OpenGeometry, on web, free and open source!
+
 <!-- A robust floorplanning sdk being developed using **[OpenGeometry Kernel](https://github.com/OpenGeometry-io/OpenGeometry)**. You can use OpenPlans as a library and import it into your web project. OpenPlans uses Three.js for rendering on web. 
 
 More information on **[Three.js can be found here](https://threejs.org)**.

@@ -5,6 +5,15 @@
 
 .heroBanner {
   padding: 4rem 0;
+  height: 73vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 113, 255, 0.85),
+    rgba(41, 108, 255, 0.85)
+  ),
+  url('/static/img/picasso.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
   text-align: center;
   position: relative;
   overflow: hidden;

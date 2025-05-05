@@ -4,32 +4,46 @@ sidebar_position: 3
 
 # Circle
 
-#### Unit Line with Length 1 on XZ Plane
+The `Circle` class is used to create a circle with a given center, radius, and number of segments. It can be used to create circles with different colors and angles.
+
+### Create Circle
 ```js
-const ogSimple = new SimpleLine();
-scene.add(ogSimple);
+const circleData = {
+  radius: 3,
+  segments: 15,
+  position: new Vector3D(0, 0, 0),
+  startAngle: 0,
+  endAngle: Math.PI * 2,
+}
+
+const ogCircle = new BaseCircle(circleData);
+scene.add(ogCircle);
 ```
 
-#### Line with 2 points
+### Circle with Color
 ```js
-const ogSimple2 = new SimpleLine(
-  new Vector3D(1, 1, 2),
-  new Vector3D(1, 1, -2)
-);
-scene.add(ogSimple2);
+const circleData = {
+  radius: 3,
+  segments: 15,
+  position: new Vector3D(0, 3, 0),
+  startAngle: 0,
+  endAngle: Math.PI * 2,
+}
+const ogCircle = new BaseCircle(circleData);
+ogCircle.color = 0x00ff00;
+scene.add(ogCircle);
 ```
 
-#### Line with 2 points and color
-```js
-const ogSimple3 = new SimpleLine(
-  new Vector3D(-1, 1, 2),
-  new Vector3D(-1, 1, -2)
-);
-ogSimple3.color = 0x00ff00;
-scene.add(ogSimple3);
-```
+### Properties
+These properties can be edited to change the appearance of the circle in real-time which generates a new geometry and updates the scene.
 
-#### Example
-```jsx
+| Property | Type | Description |
+| -------- | ---- | ----------- |
+| `radius` | number | The radius of the circle. |
 
-```
+:::tip
+Apart from OpenGeometry properties, you can also use the Three.js properties to change the appearance of the circle.
+:::
+
+### And One More Thing
+Let's checkout the live example [<u>here</u>](https://demos.opengeometry.io/src/kernel/primitives/circle.html)

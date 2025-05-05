@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'OpenGeometry',
-  tagline: '3D CAD on the web',
-  favicon: 'img/favicon.ico',
+  tagline: '3D CAD and Tools on the web',
+  favicon: 'img/ogLogo.png',
 
   // Set the production url of your site here
   url: 'https://opengeometry.io',
@@ -66,6 +66,7 @@ const config: Config = {
       logo: {
         alt: 'OpenGeometry Logo',
         src: 'img/ogLogo.png',
+        href: 'https://opengeometry.io/',
       },
       items: [
         {
@@ -90,12 +91,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Navigation',
           items: [
             {
               label: 'Example',
               href: 'https://demos.opengeometry.io/',
             },
+            {
+              label: 'Home',
+              href: 'https://opengeometry.io/',
+            }
           ],
         },
         {

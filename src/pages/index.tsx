@@ -13,10 +13,17 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className="hero__title" style={{fontSize: '4rem', color: 'white', fontWeight: '700'}}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle" 
+          style={{
+            fontSize: '2rem',
+            marginBottom: '2rem',
+            color: 'white',
+            fontWeight: '400',
+          }}
+        >{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -36,9 +43,9 @@ export default function Home(): ReactNode {
       title={`Tab ${siteConfig.title}`}
       description="OpenPlan Documentation and Live Examples, more details can be found at OpenGeometry.io">
       <HomepageHeader />
-      <main>
+      {/* <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
     </Layout>
   );
 }

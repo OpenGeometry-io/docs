@@ -168,5 +168,7 @@ Open your browser and go to `http://localhost:5173` and you should see a simple 
 You have successfully created a simple rectangle using OpenGeometry. You can now start exploring the library and create more complex geometries.
 
 ## And One More Thing
-Let's checkout the live example [<u>here</u>](https://demos.opengeometry.io/kernel/rectangle)
+Let's checkout the live example [<u>here</u>](https://demos.opengeometry.io/src/kernel/primitives/rectangle.html)
 
+## Source Code
+You can find the source code for this example [<u>here</u>](https://github.com/OpenGeometry-io/quickstart-js)

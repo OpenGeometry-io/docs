@@ -1,0 +1,10 @@
+{
+  "label": "Shapes",
+  "position": 3,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Creating and Manipulating Geometric Shapes."
+  }
+}
